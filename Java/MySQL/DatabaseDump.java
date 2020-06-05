@@ -1,7 +1,6 @@
 
 import java.io.IOException;
 
-import sdd.team1.david.util.Logger;
 
 /**
  * This class will be used to manipulate the database. Requirements: mysql
