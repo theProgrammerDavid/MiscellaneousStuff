@@ -2,7 +2,10 @@ use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
 
+const SOME_CONSTANT:u32 = 100_000;
+
 fn main() {
+    println!("The constant is {}\n\n", SOME_CONSTANT);
     println!("Guess the number between 1 and 100");
     loop {
         println!("Input your guess");
