@@ -2,3 +2,4 @@
 
 * Java
 * Rust
+* linux kernel stuff
