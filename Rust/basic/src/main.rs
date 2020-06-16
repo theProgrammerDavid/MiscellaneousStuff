@@ -13,5 +13,10 @@ fn main() {
     let b=[3;5];
     //This creates an array with 5 elements each with value 3
 
-    
+    println!("Value of the function is {}", return_value);
+}
+
+
+fn return_value(x:i32) ->i32{
+    x+1
 }
