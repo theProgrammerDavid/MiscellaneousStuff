@@ -7,13 +7,32 @@ fn main() {
 
     //Arrays
 
-    let a:[i32;5] = [1,2,3,4,5];
+    let _a:[i32;5] = [1,2,3,4,5];
     //arrays have a fixed size like tuples
 
-    let b=[3;5];
+    let _b=[3;5];
     //This creates an array with 5 elements each with value 3
 
-    println!("Value of the function is {}", return_value);
+    println!("Value of the function is {}", return_value(5));
+
+    let number = return_value(3);
+
+    if number < 5{
+        println!("Number is less than 5");
+    }
+
+    let mut counter = 0;
+
+    let result = loop{
+        counter += 1;
+
+        if counter == 10{
+            break counter*2;
+
+        }
+    };
+
+    println!("Counter is {}", result);
 }
 
 
