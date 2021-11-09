@@ -1,0 +1,6 @@
+[requires]
+sqlite3/3.36.0
+
+[generators]
+cmake
+json
