@@ -4,7 +4,7 @@ import json
 
 ffibuilder = FFI()
 
-cpp_path = path.Path("../ChuckNorrisFact").abspath()
+cpp_path = path.Path("..").abspath()
 cpp_build_path = cpp_path.joinpath("build")
 # ck_lib_path = cpp_build_path.joinpath("lib/libchucknorris.a")
 # ck_include_path = cpp_path.joinpath("include")
